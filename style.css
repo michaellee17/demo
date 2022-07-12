@@ -56,7 +56,7 @@ td:nth-child(even) {
 th{background-color:#adb5bd;}
 /* td:hover { background-color: red !important;}
 tr:hover { background-color: yellow;} */
-.mark{background-color:rgb(212, 211, 187) !important;}
+.mark{background-color:wheat !important;}
 th h2{
     border-bottom: 2px solid black;
     font-size: 1.5rem;
@@ -151,5 +151,14 @@ th h2{
     pointer-events: none;
 
   }
-    
+  pre{
+    text-align: center;
+    color: wheat !important;
+    font-size: 18px !important;
+  }
+  .deletebutton, .modifybutton{
+    padding: 5px;
+    border-radius: 12px;
+
+  }
 
